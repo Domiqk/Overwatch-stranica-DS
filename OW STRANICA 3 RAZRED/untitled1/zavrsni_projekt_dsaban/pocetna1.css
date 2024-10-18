@@ -1,0 +1,321 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo1 {
+    width: 5em;
+    display: flex;
+
+}
+
+header {
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    padding: 0.65em;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+nav{
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li{
+    padding: 1em;
+    color: black;
+}
+a:hover{
+    color: #e78400;
+    background-color: black;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body {
+    background-image: url("https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt030bf3d606661d3c/633f5be164fe5a7d4481a16c/overwatch-section1-feature1.png?width=&format=webply&dpr=2&disable=upscale&quality=80");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.naslov-bjl{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8em;
+    font-size: 3em;
+    text-shadow: 0.05em 0.05em #0000a9;
+}
+
+.podnaslov-bjl{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    text-shadow: 0.05em 0.05em #0000a9;
+}
+
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: darkorange;
+    height: 5em;
+    bottom: 0;
+    width: 100%;
+}
+
+.prvi-naslov{
+    background-image: url("https://images.blz-contentstack.com/v3/assets/bltf408a0557f4e4998/blt030bf3d606661d3c/633f5be164fe5a7d4481a16c/overwatch-section1-feature1.png?width=&format=webply&dpr=2&disable=upscale&quality=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50em;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro{
+    width: 50%;
+    padding: 10% 0 10% 0;
+    font-size: 1.2em;
+}
+
+.intro-slika{
+    height: 40%;
+    box-shadow: 0.4em 0.4em;
+
+}
+
+.prvi-odl-iznad{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1e1d1d;
+    width: 90%;
+    background: #ffba79;
+    flex-flow: column;
+    opacity: 98%;
+    border-radius: 4em;
+    margin-bottom: 2em;
+    padding: 1% 0 1% 0;
+}
+
+
+.prvi-odl {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1e1d1d;
+    width: 90%;
+    height: 40em;
+    background: #ffba79;
+    opacity: 98%;
+
+}
+
+
+.naslov-prvi-odl{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+
+}
+
+
+
+.foty{
+    color: #efecd4;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.kupit {
+    background-color: deepskyblue;
+    width: 7em;
+    border-radius: 1.3em;
+    height: 3em;
+    padding: 1em;
+    border-width: 0em;
+    font-size: 4em;
+    position: absolute;
+    color: #006083;
+    margin-top: 10em;
+    box-shadow: 0.5em 0.2em;
+}
+
+button:hover{
+    background-color: #88dfff;
+    color: #2f5d80;
+}
+
+
+
+.kupit-tekst{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column;
+    position: relative;
+
+}
+
+.buy-game{
+    display: flex;
+    align-items: center;
+    color: #1e1d1d;
+    width: 90%;
+    height: 60em;
+    background: #ffba79;
+    flex-flow: column;
+    border-radius: 4em;
+    margin-bottom: 2em;
+    padding: 1% 0 1% 0;
+}
+
+.slika-buy{
+    width: 100%;
+    box-shadow: 0.4em 0.4em;
+
+}
+
+.prvi-odl-iznad-form{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #1e1d1d;
+    width: 90%;
+    background: #ffba79;
+    flex-flow: column;
+    opacity: 98%;
+    border-radius: 4em;
+    margin-bottom: 20em;
+    padding: 1% 0 1% 0;
+    margin-top: 10em;
+    height: 65em;
+
+
+}
+
+.kupit-form {
+    background-color: deepskyblue;
+    width: 7em;
+    border-radius: 1.3em;
+    height: 3em;
+    padding: 1em;
+    border-width: 0em;
+    font-size: 4em;
+    color: #006083;
+    box-shadow: 0.5em 0.2em;
+}
+
+.prvi-odl-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e1d1d;
+    width: 90%;
+    height: 50em;
+    background: #ffba79;
+    opacity: 98%;
+}
+
+.forma{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-flow: column;
+
+}
+
+.hero-slika-win {
+    height: 20em;
+}
+
+.hero-slika-trc {
+    height: 22em;
+}
+.hero-slika-moi{
+    height: 27em;
+}
+
+
+.prvi-naslov-eve{
+    background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb208120ae00065ff/6452cb5a5740b5288491c4b4/1840x1036_hero_.png?format=webply&quality=90");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50em;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    background-position: top;
+
+}
+
+.naslov-bjl-eve{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8em;
+    font-size: 3em;
+    text-shadow: 0.05em 0.05em #801414;
+
+}
+
+.podnaslov-bjl-eve{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    text-shadow: 0.05em 0.05em #801414;
+
+}
+
+.body-eve{
+    background-image: url("https://blz-contentstack-images.akamaized.net/v3/assets/blt9c12f249ac15c7ec/bltb208120ae00065ff/6452cb5a5740b5288491c4b4/1840x1036_hero_.png?format=webply&quality=90");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hvala{
+    padding-top: 3em;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kupnja igre</title>
+    <link rel="stylesheet" href="pocetna1.css">
+    <script src="js.js" defer></script>
+
+</head>
+<body>
+<header>
+    <h2>Overwatch</h2>
+    <img class="logo1" src="img/logo.png" alt="overwatch-logo">
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="heros.html">Heroji</a></li>
+        <li><a href="maps.html">Mape</a></li>
+        <li><a href="event.html">Eventi</a></li>
+    </ul>
+</nav>
+<main>
+    <section class="prvi-odl-iznad-form">
+    <h1 class="naslov-prvi-odl">Kupite Overwatch 3</h1>
+    <section class="prvi-odl-form">
+        <form class="forma">
+            <label for="prvoIme">Ime:</label>
+            <input type="text" id="prvoIme" name="prvoIme" required><br><br>
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" name="prezime" required><br><br>
+            <label for="god">Godine:</label>
+            <input type="number" id="god" name="god" required><br><br>
+            <label for="address">Adresa:</label>
+            <input type="text" id="address" name="address" required><br><br>
+            <label for="mob">Broj mobitela:</label>
+            <input type="tel" id="mob" name="mob" required><br><br>
+            <label for="karticaBroj">Broj kreditne kartice:</label>
+            <input type="text" id="karticaBroj" name="karticaBroj" required><br><br>
+            <label for="karticaBroj3">CVV</label>
+            <input type="text" id="karticaBroj3" name="karticaBroj3" required><br><br>
+            <label for="karticaBrojDate">Datum isteka kartice</label>
+            <input type="text" id="karticaBrojDate" name="karticaBrojDate" required><br><br>
+            <label for="terms">
+                Terms of service<br>
+                <input type="checkbox" id="terms" name="terms" required><br>
+            </label>
+            <button type="submit" class="kupit-form" onclick="obojiFrom()">Kupi</button>
+            <div class="hvala"></div>
+
+        </form>
+    </section>
+    </section>
+</main>
+<footer>
+    <div class="foty-form">
+        <p>Copyright 2006-2023 by Blizzard Ent. All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
